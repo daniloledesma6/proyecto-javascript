@@ -1,0 +1,209 @@
+{  "productos":      
+    [
+        {
+            "id": "cactus1",
+            "nombre": "Cactus",
+            "img": "https://i.pinimg.com/564x/31/1f/fc/311ffc69b2818ad7ba8f2791d5d5ca79.jpg",
+            "categoria": {
+                "nombre": "Plantas",
+                "id": "plantas"
+            },
+            "precio": 1999
+        },
+        {
+            "id": "helechos1",
+            "nombre": "Helechos",
+            "img": "https://i.pinimg.com/564x/da/78/b7/da78b767afb4095ecdbec4796b886f71.jpg",
+            "categoria": {
+                "nombre": "Plantas",
+                "id": "plantas"
+            },
+            "precio": 2199
+        },
+        {
+            "id": "suculentas1",
+            "nombre": "Suculentas",
+            "img": "https://i.pinimg.com/564x/2c/3e/bd/2c3ebd33395bc031494f23843b285f95.jpg",
+            "categoria": {
+                "nombre": "Plantas",
+                "id": "plantas"
+            },
+            "precio": 1699
+        },
+        {
+            "id": "tulipanes1",
+            "nombre": "Tulipan",
+            "img": "https://i.pinimg.com/564x/0d/80/6a/0d806a8c970f8c872c03eeb9d0709e21.jpg",
+            "categoria": {
+                "nombre": "Plantas",
+                "id": "plantas"
+            },
+            "precio": 1399
+        },
+        {
+            "id": "lirios1",
+            "nombre": "Lirios",
+            "img": "https://i.pinimg.com/564x/fa/b3/c6/fab3c67399a1ba4569bd997431544b8f.jpg",
+            "categoria": {
+                "nombre": "Plantas",
+                "id": "plantas"
+            },
+            "precio": 1499
+        },
+        {
+            "id": "margaritas1",
+            "nombre": "Margaritas",
+            "img": "https://i.pinimg.com/564x/f6/60/f8/f660f87b208e430a354258fe22775c11.jpg",
+            "categoria": {
+                "nombre": "Plantas",
+                "id": "plantas"
+            },
+            "precio": 1799
+        },
+        {
+            "id": "orquideas1",
+            "nombre": "Orquideas",
+            "img": "https://i.pinimg.com/736x/16/ff/b5/16ffb560af43fc6990ede3727e6898db.jpg",
+            "categoria": {
+                "nombre": "Plantas",
+                "id": "plantas"
+            },
+            "precio": 2399
+        },
+        {
+            "id": "rosas1",
+            "nombre": "Rosas",
+            "img": "https://i.pinimg.com/564x/87/38/fa/8738fa17e043387942d5a1b4e8a3ef41.jpg",
+            "categoria": {
+                "nombre": "Plantas",
+                "id": "plantas"
+            },
+            "precio": 2999
+        },
+        {
+            "id": "macetablanca1",
+            "nombre": "Maceta Blanca",
+            "img": "https://cdn.wallapop.com/images/10420/e1/z5/__/c10420p849845991/i2989797290.jpg?pictureSize=W640",
+            "categoria": {
+                "nombre": "Macetas",
+                "id": "macetas"
+            },
+            "precio": 3199
+        },
+        {
+            "id": "macetadibujada1",
+            "nombre": "Maceta Dibujada",
+            "img": "https://i.pinimg.com/564x/5e/c5/80/5ec5807fd3b21399b7e9eebc8a19d5b0.jpg",
+            "categoria": {
+                "nombre": "Macetas",
+                "id": "macetas"
+            },
+            "precio": 3499
+        },
+        {
+            "id": "macetalilo1",
+            "nombre": "Maceta Lilo",
+            "img": "https://i.pinimg.com/736x/27/e4/92/27e49277c1208bb20f21b85b760a8a36.jpg",
+            "categoria": {
+                "nombre": "Macetas",
+                "id": "macetas"
+            },
+            "precio": 3899
+        },
+        {
+            "id": "macetarosa1",
+            "nombre": "Maceta Rosa",
+            "img": "https://i.pinimg.com/564x/40/cf/4e/40cf4e30f6a882a72d7b5616d7081dc9.jpg",
+            "categoria": {
+                "nombre": "Macetas",
+                "id": "macetas"
+            },
+            "precio": 3999
+        },
+        {
+            "id": "semcactus1",
+            "nombre": "Semilla(cactus)",
+            "img": "https://m.media-amazon.com/images/I/71f7Tnm-miL._AC_SL1500_.jpg",
+            "categoria": {
+                "nombre": "Semillas",
+                "id": "semillas"
+            },
+            "precio": 5199
+        },
+        {
+            "id": "semlirio1",
+            "nombre": "Semilla(lirio)",
+            "img": "https://s.alicdn.com/@sc04/kf/Hf5ea4073ea0445d1ad6bc174abff5125v.jpg_720x720q50.jpg",
+            "categoria": {
+                "nombre": "Semillas",
+                "id": "semillas"
+            },
+            "precio": 5399
+        },
+        {
+            "id": "semsuculentas1",
+            "nombre": "Semilla(suculenta)",
+            "img": "https://http2.mlstatic.com/D_NQ_NP_699698-MCO43029747626_082020-O.webp",
+            "categoria": {
+                "nombre": "Semillas",
+                "id": "semillas"
+            },
+            "precio": 5299
+        },
+        {
+            "id": "semtulipan1",
+            "nombre": "Semilla(tulipan)",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Tulipa_fringed_-_burgundy_lace_-_bulbs.jpg",
+            "categoria": {
+                "nombre": "Semillas",
+                "id": "semillas"
+            },
+            "precio": 5599
+        },
+        {
+            "id": "manguera1",
+            "nombre": "Manguera",
+            "img": "https://i.pinimg.com/736x/47/a1/08/47a10854c8c29acbce4dc0bb7b832435.jpg",
+            "categoria": {
+                "nombre": "Herramientas",
+                "id": "herramientas"
+            },
+            "precio": 6299
+        },
+        {
+            "id": "pala1",
+            "nombre": "Pala",
+            "img": "https://http2.mlstatic.com/D_NQ_NP_816431-MLA46753400964_072021-O.webp",
+            "categoria": {
+                "nombre": "Herramientas",
+                "id": "herramientas"
+            },
+            "precio": 6599
+        },
+        {
+            "id": "rastrillo1",
+            "nombre": "Rastrillo",
+            "img": "https://www.suri-sa.com.ar/3228442-large_default/rastrillo-jardin-tramontina.jpg",
+            "categoria": {
+                "nombre": "Herramientas",
+                "id": "herramientas"
+            },
+            "precio": 6899
+        },
+        {
+            "id": "tijeras1",
+            "nombre": "Tijeras",
+            "img": "https://http2.mlstatic.com/D_NQ_NP_775393-MLA49401841761_032022-O.webp",
+            "categoria": {
+                "nombre": "Herramientas",
+                "id": "herramientas"
+            },
+            "precio": 6999
+        }
+        
+    ]
+    
+    
+    
+    
+}

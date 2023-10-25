@@ -1,0 +1,452 @@
+
+body{
+    background-color: #078647;
+}
+
+/* Dando estilos al header */
+
+.texttop {
+    padding-top: 0;
+    font-size: 3rem;
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 5px 5px 14px black;
+}
+.imgtop {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: 30px;
+    margin-right: 10px;
+}
+header {
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    border: 1px solid white;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* estilos de la navbar */
+
+nav {
+    background-color: #078647;
+    padding: 22px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-around;
+    width: auto;
+    height: 55px;
+    border-radius: 4px;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+nav ul li{
+    padding: 0;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.navbar {
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 40px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1rem;
+    border: 2px solid white;
+    font-family: 'Gabarito', sans-serif;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.navbar:hover{
+    background-color: #ffffff;
+    border-radius: 30px;
+    color: #078647;
+    transition: 0.4s;
+}
+
+.divnavbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* estilos del carrito */
+
+.textcarrito {
+    font-family: 'Gabarito', sans-serif;
+    color: #078647;
+    padding: 0;
+    margin: 0;
+    font-size: 1.7rem;
+    margin: 30px;
+}
+.carritovacio {
+    color: #078647;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gabarito', sans-serif;
+    margin-left: 30px;
+}
+.contuno {
+    width: auto;
+    height: 500px;
+}
+.contdos {
+    width: 500px;
+    height: auto;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.vaciarcarrito {
+    color: #078647;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gabarito', sans-serif;
+    margin-left: 30px;
+    border: 1px solid #078647;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.vaciarcarrito:hover {
+    border: 1px solid #ffffff;
+    background-color: #078647;
+    transition: 0.4s;
+    color: white;
+}
+.comprado {
+    padding: 0;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #078647;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.contenedorproductos {
+    padding: 0;
+    margin: 0;
+}
+.imgcarritodos {
+    padding: 7px;
+    margin: 0;
+    width: auto;
+    height: 60px;
+    border-radius: 10px;
+}
+.tarrobasura {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: 20px;
+}
+.productodos {
+    padding: 4px;
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.tipodos {
+    padding: 4px;
+    margin: 0;
+    color: white;
+    font-family: 'Gabarito', sans-serif;
+    font: bolder;
+}
+.marginn {
+    padding: 0;
+    margin-top: 40px;
+}
+.comprar {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    background-color: #078647;
+    height: 90px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.contcomprar {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.totaldos {
+    padding: 0;
+    margin: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.total {
+    padding: 0;
+    margin: 5px;
+    color: white;
+    font-family: 'Gabarito', sans-serif;
+    font: bolder;
+}
+.contcomprardos {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comprarahora {
+    color: #078647;
+    padding: 10px;
+    margin: 0;
+    font-family: 'Gabarito', sans-serif;
+    border: 1px solid #078647;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.comprarahora:hover{
+    border: 1px solid white;
+    background-color: #078647;
+    color: white;
+    transition: 0.5s;
+}
+.parrafo {
+    padding: 0;
+    margin: 0;
+}
+.cont-comprar {
+    display: flex;
+    align-items: flex-end;
+}
+.ocultar{
+    display: none;
+}
+a {
+    text-decoration: none;
+}
+.eliminar-producto {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.eliminar-producto img {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: 24px;
+}
+.eliminar-producto img:hover{
+    width: auto;
+    height: 29px;
+    transition: 0.3s;
+}
+.disminuir-cantidad {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.aumentar-cantidad {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+/* estilos del footer */
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 220px;
+    width: 1200px;
+    align-items: center;
+}
+footer img {
+    width: auto;
+    height: 18px;
+    margin: 10px;
+}
+.cont-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* media queries (tablet) */
+
+
+@media (max-width: 768px){
+    footer {
+      width: auto;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .vaciarcarrito {
+       font-size: 13px;
+       text-align: center;
+       padding: 4px;
+    }
+    .vaciarcarrito:hover {
+        border: 1px solid #ffffff;
+        background-color: #078647;
+        transition: 0.4s;
+        color: white;
+    }
+    .textcarrito{
+        font-size: 1.4rem;
+    }
+    .comprar{
+        margin: 5px;
+    }
+    .contdos{
+        margin-bottom: 5px;
+    }
+  }
+
+ 
+  /* media queries (mobile) */
+
+
+@media (max-width: 320px) {
+    .texttop{
+        font-size: 32px;
+    }
+    header{
+        width: auto;
+        height: 30px;
+    }
+    .navbar{
+        font-size: 14px;
+    }
+    .textcarrito{
+        font-size: 20px;
+    }
+    .vaciarcarrito{
+        font-size: 12px;
+        padding: 10px;
+        width: 95px;
+        margin: 0;
+    }
+    .contdos{
+        margin: 0;
+        width: auto;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contuno {
+        width: auto;
+        height: auto;
+    }
+    .contenedorproductos img{
+        width: auto;
+        height: 37px;
+        margin: 0;
+        padding: 0;
+    }
+    .productodos{
+        font-size: 12px;
+        margin-left: 7px;
+        padding: 0;
+    }
+    .tipodos{
+        font-size: 12px;
+        margin-left: 7px;
+        padding: 0;
+    }
+    .eliminar-producto img{
+        width: auto;
+        height: 17px;
+        margin: 0;
+        padding: 0;
+        margin-left: 5px;
+    }
+    .eliminar-producto img:hover {
+        width: auto;
+        height: 17px;
+    }
+    .comprado {
+        padding: 0;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: auto;
+    }
+    .disminuir-cantidad{
+        margin-left: 4px;
+    }
+    .aumentar-cantidad{
+        margin-left: 4px;
+    }
+    .total {
+        font-size: 13px;
+    }
+    .totaldos {
+        font-size: 13px;
+    }
+    .comprarahora {
+        font-size: 10px;
+        padding: 7px;
+    }
+    .comprar{
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+        padding: 7px;
+    }
+    .carritovacio{
+        margin-bottom: 40px;
+    }
+    footer{
+        width: auto;
+        
+    }
+    footer p {
+        font-size: 13px;
+    }
+}
